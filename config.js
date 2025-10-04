@@ -32,11 +32,11 @@ global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
 // Owner information
 global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["249121870601", "249906498702"];
 global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["249121870601", "249906498702"];
-global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["24912180601"];
+global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["249121870601"];
 global.OwnerName = process.env.OWNER_NAME || "OG YAHYA";
 global.BotName = process.env.BOT_NAME || "Na-zi";
 global.packname = process.env.PACK_NAME || "Na-zi Bot";
-global.author = "By: Kai";
+global.author = "By: OG YAHYA";
 global.BotSourceCode = "https://github.com/Kai0071/A17";
 global.SupportGroupLink = "https://chat.whatsapp.com/";
 
@@ -80,18 +80,18 @@ global.ntilink = []
 
 // Messages
 global.mess = {
-  jobdone: 'Here you go...',
-  useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
-  botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-  botowner: 'Only my *Owner* can use this command, Baka!',
-  grouponly: 'This command is only made for *Groups*, Baka!',
-  privateonly: 'This command is only made for *Private Chat*, Baka!',
-  botonly: 'Only the *Bot itself* can use this command!',
-  waiting: 'Just Wait...',
-  nolink: 'Please provide me *link*, Baka!',
-  error: 'An error occurd!',
-  banned: 'You are *Banned* fron using commands!',
-  bangc: 'This Group is *Banned* from using Commands!',
+  jobdone: '...✨ يتم الإنجاز',
+  useradmin: '*فقط المشرفون يستطيعون استخدام هذا الامر يا *عبيط',
+  botadmin: 'لازم ابقى مشرف يا عبيط',
+  botowner: ' يستطيع استخدام هذا الامر *OG YAHYA* فقط مطوري  ',
+  grouponly: 'هذا الامر للمجموعات باااص',
+  privateonly: ' هذا الامر للشات الخاص بااص',
+  botonly: '✋انا وحدي من يستطيع استخدام هذا الامر ',
+  waiting: '.. ✨يتم',
+  nolink: 'و حاشتغله ليك كيف من غير رابط؟؟ ',
+  error:'هنالك خطاء..لحظه من فضلك',
+  banned: '*لقد تم حظرك من استخدام البوت لانك *عب',
+  bangc: '*لقد تم حظر هذا القروب من استخدام البوت لانكم *عبيد مجانين',
   nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
 
 }
